@@ -8,3 +8,10 @@ export type Attributes = {
 };
 
 export type Class = "Barbarian" | "Wizard" | "Bard";
+
+export type AttributeName = 'Strength' | 'Dexterity' | 'Constitution' | 'Intelligence' | 'Wisdom' | 'Charisma';
+
+export type Skill = {
+  name: string;
+  attributeModifier: AttributeName;
+};
